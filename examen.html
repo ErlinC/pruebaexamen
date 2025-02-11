@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal</title>
+    <!-- Fuente de Google que se usó, en este caso fué Poppins profesor -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>Erlin Córdoba</h1>
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Principal</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero / sobre mí -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Diseñador & Desarrollador</h2>
+            <p>Erlin Antonio Córdoba Quintero</p>
+            <p>Estudiante de 3er
+                <br>año en ingeniería en sistemas en la UCN
+            </p>
+            <a href="#projects" class="btn">Ver Proyectos</a>
+        </div>
+        <!-- Imagen hero (agregar luego) -->
+        <div class="hero-image">
+            <img src="foto.jpg" alt="Imagen principal">
+        </div>
+    </section>
+
+    <!-- Sección About -->
+    <section class="about" id="about">
+        <h2>Sobre Mí</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>¡Hola! Soy Erlin, y soy alguien apasionado por el diseño y desarrollo web. Bienvenido a mi portafolio personal!</p>
+            </div>
+            <div class="about-image">
+                <img src="lewa.jpg" alt="Lewandowski">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Projects -->
+    <section class="projects" id="projects">
+        <h2>Proyectos Recientes</h2>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <div class="project-item">
+                <img src="information.png" alt="Proyecto 1">
+                <h3>Simplicidad Moderna</h3>
+                <p>Diseños simples y modernos para adaptarse a lo minimalista</p>
+            </div>
+            
+            <!-- Proyecto 2 -->
+            <div class="project-item">
+                <img src="information.png" alt="Proyecto 2">
+                <h3>Página del Barcelona</h3>
+                <p>Página web del Barcelona creada a inicios de cuatrimestre</p>
+            </div>
+            
+            <!-- Repetir para más proyectos -->
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-content">
+            <!-- Formulario -->
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+            
+            <!-- Info de contacto -->
+            <div class="contact-info">
+                <p>📧 erlinjrcordoba@gmail.com</p>
+                <div class="social-links">
+                    <a href="#"><img src="linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Erlin Córdoba. Todos los derechos reservados.</p>
+        <div class="footer-social">
+               <p>si que me costó hacer esta página profe, apreciela :D</p>
+        </div>
+    </footer>
+</body>
+</html>
